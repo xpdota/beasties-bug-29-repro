@@ -1,0 +1,17 @@
+{
+  "name": "beasties-repro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "lessc ./src/style.less ./dist/style.css && webpack"
+  },
+  "devDependencies": {
+    "beasties-webpack-plugin": "^0.1.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.3",
+    "less": "^4.2.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "license": "GPL"
+}
